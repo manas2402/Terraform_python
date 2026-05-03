@@ -1,5 +1,5 @@
 provider "aws" {
-  alias   = "manas"
+  alias   = "**********"
   region = "us-east-1"
-  profile = "manas111t"
+  profile = "**********"
 }
