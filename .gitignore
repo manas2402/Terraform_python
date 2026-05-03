@@ -1,0 +1,32 @@
+# Local .terraform directory
+.terraform/
+
+# Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Terraform binaries
+terraform
+
+# Keys and sensitive files
+*.pub
+dovekey
+testkey
+dovekey.pub
+testkey.pub
+
+# Logs
+*.log
+crash.log
+
+# Ignore scripts if local
+web.sh
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
